@@ -1,5 +1,40 @@
 .countries__display {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  flex-basis: 70%;
+}
+
+.countries_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.countries_info h2,
+.countries_info h3 {
+  border: 1px solid goldenrod;
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+}
+
+.countries_info h3 {
+  text-align: right;
+}
+
+.display_container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1rem;
+}
+
+.countries_flag_container {
+  border: 1px solid gold;
+  padding: 10px;
+  border-radius: 10px;
+  height: auto;
+  flex-grow: 1;
 }
